@@ -1,5 +1,5 @@
-let btn = document.querySelector("input");
-let tabla = document.querySelector("tbody");
+const btn = document.querySelector("input");
+const tabla = document.querySelector("tbody");
 tabla.innerHTML = "";
 let fila;
 document.addEventListener("DOMContentLoaded", showTable);
@@ -7,12 +7,12 @@ function showTable() {
   fetch("../listado.json")
     .then((response) => response.json())
     .then((plaza) => creatabla(plaza))
-    .catch((error) => ocultartable());
+    .catch(() => ocultartable());
 }
 function ocultartable() {
   tabla.innerHTML =
     "<tr><td colspan=3 >No existe ningun elemento en la tabla, revisar el archivo JSON</td> </tr>";
-  let boton = document.querySelector(".btn");
+  const boton = document.querySelector(".btn");
   boton.classList.add("btn-desactivado");
 }
 function creatabla(datos) {
