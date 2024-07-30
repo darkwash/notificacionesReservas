@@ -1,8 +1,6 @@
 .stylelintrc.json
 node_modules/
 .vscode
-package-lock.json
-package.json
 .eslintrc.json
 
 

@@ -1,0 +1,17 @@
+{
+  "name": "notificacion_cancelacionreserva",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hector vazquez",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-manzdev": "^0.0.8",
+    "stylelint": "^16.8.0",
+    "stylelint-config-manzdev": "^0.0.18"
+  }
+}
