@@ -1,0 +1,262 @@
+[
+    {
+        "idReserva": 1234567,
+        "llegada": "15/08/2024",
+        "plaza": "acapulco"
+    },
+    {
+        "idReserva": 2345678,
+        "llegada": "20/09/2024",
+        "plaza": "mazatlan"
+    },
+    {
+        "idReserva": 3456789,
+        "llegada": "10/10/2024",
+        "plaza": "peñasco"
+    },
+    {
+        "idReserva": 4567890,
+        "llegada": "25/11/2024",
+        "plaza": "riviera maya"
+    },
+    {
+        "idReserva": 5678901,
+        "llegada": "01/12/2024",
+        "plaza": "cabos"
+    },
+    {
+        "idReserva": 6789012,
+        "llegada": "30/12/2024",
+        "plaza": "acapulco"
+    },
+    {
+        "idReserva": 7890123,
+        "llegada": "12/01/2025",
+        "plaza": "mazatlan"
+    },
+    {
+        "idReserva": 8901234,
+        "llegada": "23/02/2025",
+        "plaza": "peñasco"
+    },
+    {
+        "idReserva": 9012345,
+        "llegada": "14/03/2025",
+        "plaza": "riviera maya"
+    },
+    {
+        "idReserva": 1234568,
+        "llegada": "05/04/2025",
+        "plaza": "cabos"
+    },
+    {
+        "idReserva": 2345679,
+        "llegada": "17/05/2025",
+        "plaza": "acapulco"
+    },
+    {
+        "idReserva": 3456780,
+        "llegada": "29/06/2025",
+        "plaza": "mazatlan"
+    },
+    {
+        "idReserva": 4567891,
+        "llegada": "11/07/2025",
+        "plaza": "peñasco"
+    },
+    {
+        "idReserva": 5678902,
+        "llegada": "23/08/2025",
+        "plaza": "riviera maya"
+    },
+    {
+        "idReserva": 6789013,
+        "llegada": "04/09/2025",
+        "plaza": "cabos"
+    },
+    {
+        "idReserva": 7890124,
+        "llegada": "16/10/2025",
+        "plaza": "acapulco"
+    },
+    {
+        "idReserva": 8901235,
+        "llegada": "28/11/2025",
+        "plaza": "mazatlan"
+    },
+    {
+        "idReserva": 9012346,
+        "llegada": "10/12/2025",
+        "plaza": "peñasco"
+    },
+    {
+        "idReserva": 1234569,
+        "llegada": "22/01/2026",
+        "plaza": "riviera maya"
+    },
+    {
+        "idReserva": 2345680,
+        "llegada": "03/02/2026",
+        "plaza": "cabos"
+    },
+    {
+        "idReserva": 3456791,
+        "llegada": "15/03/2026",
+        "plaza": "acapulco"
+    },
+    {
+        "idReserva": 4567902,
+        "llegada": "27/04/2026",
+        "plaza": "mazatlan"
+    },
+    {
+        "idReserva": 5678913,
+        "llegada": "09/05/2026",
+        "plaza": "peñasco"
+    },
+    {
+        "idReserva": 6789024,
+        "llegada": "21/06/2026",
+        "plaza": "riviera maya"
+    },
+    {
+        "idReserva": 7890135,
+        "llegada": "03/07/2026",
+        "plaza": "cabos"
+    },
+    {
+        "idReserva": 8901246,
+        "llegada": "15/08/2026",
+        "plaza": "acapulco"
+    },
+    {
+        "idReserva": 9012357,
+        "llegada": "27/09/2026",
+        "plaza": "mazatlan"
+    },
+    {
+        "idReserva": 1234570,
+        "llegada": "09/10/2026",
+        "plaza": "peñasco"
+    },
+    {
+        "idReserva": 2345681,
+        "llegada": "21/11/2026",
+        "plaza": "riviera maya"
+    },
+    {
+        "idReserva": 3456792,
+        "llegada": "03/12/2026",
+        "plaza": "cabos"
+    },
+    {
+        "idReserva": 4567903,
+        "llegada": "15/01/2027",
+        "plaza": "acapulco"
+    },
+    {
+        "idReserva": 5678914,
+        "llegada": "27/02/2027",
+        "plaza": "mazatlan"
+    },
+    {
+        "idReserva": 6789025,
+        "llegada": "11/03/2027",
+        "plaza": "peñasco"
+    },
+    {
+        "idReserva": 7890136,
+        "llegada": "23/04/2027",
+        "plaza": "riviera maya"
+    },
+    {
+        "idReserva": 8901247,
+        "llegada": "05/05/2027",
+        "plaza": "cabos"
+    },
+    {
+        "idReserva": 9012358,
+        "llegada": "17/06/2027",
+        "plaza": "acapulco"
+    },
+    {
+        "idReserva": 1234571,
+        "llegada": "29/07/2027",
+        "plaza": "mazatlan"
+    },
+    {
+        "idReserva": 2345682,
+        "llegada": "11/08/2027",
+        "plaza": "peñasco"
+    },
+    {
+        "idReserva": 3456793,
+        "llegada": "23/09/2027",
+        "plaza": "riviera maya"
+    },
+    {
+        "idReserva": 4567904,
+        "llegada": "05/10/2027",
+        "plaza": "cabos"
+    },
+    {
+        "idReserva": 5678915,
+        "llegada": "17/11/2027",
+        "plaza": "acapulco"
+    },
+    {
+        "idReserva": 6789026,
+        "llegada": "29/12/2027",
+        "plaza": "mazatlan"
+    },
+    {
+        "idReserva": 7890137,
+        "llegada": "10/01/2028",
+        "plaza": "peñasco"
+    },
+    {
+        "idReserva": 8901248,
+        "llegada": "22/02/2028",
+        "plaza": "riviera maya"
+    },
+    {
+        "idReserva": 9012359,
+        "llegada": "06/03/2028",
+        "plaza": "cabos"
+    },
+    {
+        "idReserva": 1234572,
+        "llegada": "18/04/2028",
+        "plaza": "acapulco"
+    },
+    {
+        "idReserva": 2345683,
+        "llegada": "30/05/2028",
+        "plaza": "mazatlan"
+    },
+    {
+        "idReserva": 3456794,
+        "llegada": "12/06/2028",
+        "plaza": "peñasco"
+    },
+    {
+        "idReserva": 4567905,
+        "llegada": "24/07/2028",
+        "plaza": "riviera maya"
+    },
+    {
+        "idReserva": 5678916,
+        "llegada": "06/08/2028",
+        "plaza": "cabos"
+    },
+    {
+        "idReserva": 6789027,
+        "llegada": "18/09/2028",
+        "plaza": "acapulco"
+    },
+    {
+        "idReserva": 7890138,
+        "llegada": "30/10/2028",
+        "plaza": "mazatlan"
+    }
+]
