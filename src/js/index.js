@@ -4,7 +4,7 @@ tabla.innerHTML = "";
 let fila;
 document.addEventListener("DOMContentLoaded", showTable);
 function showTable() {
-  fetch("../listado.json")
+  fetch("../src/assets/listado.json")
     .then((response) => response.json())
     .then((plaza) => creatabla(plaza))
     .catch(() => ocultartable());
