@@ -1,5 +1,9 @@
 const btn = document.querySelector("input");
 const tabla = document.querySelector("tbody");
+const loading = document.querySelector(".loader");
+const ocultarElement = document.querySelector(".contenido ");
+
+console.log(loading);
 
 let fila;
 document.addEventListener("DOMContentLoaded", showTable);
@@ -55,5 +59,7 @@ function creatabla(datos) {
 
 btn.addEventListener("click", function (e) {
   e.preventDefault();
-  console.log("Enviando correo");
+  ocultarElement.classList.add("contenido-oculto");
+  loading.classList.add("mostrar-loader");
+  document.body.style.background = "#222";
 });

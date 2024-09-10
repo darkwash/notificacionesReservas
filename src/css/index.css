@@ -1,7 +1,103 @@
-
 :root{
   --fuente-primaria: "Bebas Neue", sans-serif;
   --fuente-secundaria: "Scope One", sans-serif;
+}
+
+.contenido-oculto{
+  opacity: 100%;
+  animation: opacar 0.5s forwards;
+
+}
+
+.contenedor-send {
+  margin: 50vh 45vw;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  animation: mostrar-sobre 0.5s forwards;
+}
+
+.loader {
+  display: none;
+  width: 80%;
+  margin: 0 auto;
+  border-style: solid;
+  box-sizing: border-box;
+  border-width: 40px 60px 30px;
+  border-color: #3760c9 #96ddfc #96ddfc #36bbf7;
+
+}
+
+.mostrar-loader{
+  display: block;
+  animation: mostrar-sobre 1.5s forwards;
+}
+
+.loader::after {
+  content: "";
+  position: absolute;
+  right: 100px;
+  top: 0;
+  height: 70px;
+  width: 50px;
+  background-image: linear-gradient(#fff 45px, transparent 0),
+    linear-gradient(#fff 45px, transparent 0),
+    linear-gradient(#fff 45px, transparent 0);
+  background-repeat: no-repeat;
+  background-size: 30px 4px;
+  background-position: 0 11px , 8px 35px, 0 60px;
+  animation: env-dropping 0.75s linear infinite;
+}
+
+@keyframes env-floating {
+  0% {
+    transform: translate(-2px, -5px)
+  }
+
+  100% {
+    transform: translate(0, 5px)
+  }
+}
+
+@keyframes env-dropping {
+  0% {
+    background-position: 100px 11px , 115px 35px, 105px 60px;
+    opacity: 100%;
+  }
+
+  50% {
+    background-position: 0 11px , 20px 35px, 5px 60px;
+  }
+
+  60% {
+    background-position: -30px 11px , 0 35px, -10px 60px;
+  }
+
+  75%, 100% {
+    background-position: -30px 11px , -30px 35px, -30px 60px;
+    opacity: 0%;
+  }
+}
+
+@keyframes opacar {
+  0%{
+    opacity:50%;
+  }
+
+  100%{
+    opacity:0%;
+  }
+}
+
+@keyframes mostrar-sobre{
+  0%{
+    display: none;
+  }
+
+  100%{
+    display: block;
+
+  }
 }
 
 h1 {
