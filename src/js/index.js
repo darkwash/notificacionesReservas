@@ -2,6 +2,7 @@ const btn = document.querySelector("input");
 const tabla = document.querySelector("tbody");
 const loading = document.querySelector(".loader");
 const ocultarElement = document.querySelector(".contenido ");
+const success = 1;
 
 console.log(loading);
 
@@ -54,7 +55,6 @@ function creatabla(datos) {
   );
 
   console.log(plazasFiltradas);
-  // console.log(plazas);
 }
 
 btn.addEventListener("click", function (e) {
@@ -62,4 +62,14 @@ btn.addEventListener("click", function (e) {
   ocultarElement.classList.add("contenido-oculto");
   loading.classList.add("mostrar-loader");
   document.body.style.background = "#222";
+  setTimeout(() => {
+    ocultarElement.classList.remove("contenido-oculto");
+    loading.classList.remove("mostrar-loader");
+    document.body.style.background = "#fff";
+    if (success) {
+      swal("Success!", "El correo se ha enviado satisfactoriamente", "success");
+    } else {
+      swal("Error", "Revisa que el correo sea correcto", "error");
+    }
+  }, 2000);
 });

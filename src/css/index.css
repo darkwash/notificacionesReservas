@@ -14,11 +14,13 @@
   width: 100px;
   position: fixed;
   z-index: 1;
-  animation: mostrar-sobre 0.5s forwards;
+  animation: env-floating 0.8s ease-in-out infinite;
+
 }
 
 .loader {
-  display: none;
+  display: block;
+  opacity: 0%;
   width: 80%;
   margin: 0 auto;
   border-style: solid;
@@ -29,8 +31,8 @@
 }
 
 .mostrar-loader{
-  display: block;
-  animation: mostrar-sobre 1.5s forwards;
+  opacity: 100%;
+
 }
 
 .loader::after {
@@ -47,6 +49,7 @@
   background-size: 30px 4px;
   background-position: 0 11px , 8px 35px, 0 60px;
   animation: env-dropping 0.75s linear infinite;
+
 }
 
 @keyframes env-floating {
@@ -81,7 +84,7 @@
 
 @keyframes opacar {
   0%{
-    opacity:50%;
+    opacity:100%;
   }
 
   100%{
@@ -91,11 +94,11 @@
 
 @keyframes mostrar-sobre{
   0%{
-    display: none;
+    opacity: 0%;
   }
 
   100%{
-    display: block;
+    opacity:100%;
 
   }
 }
