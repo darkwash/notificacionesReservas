@@ -9,10 +9,7 @@
   "author": "Hector vazquez",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^9.8.0",
-    "eslint-config-manzdev": "^0.0.8",
-    "stylelint": "^16.8.1",
-    "stylelint-config-manzdev": "^0.0.18"
+    "sweetalert2": "^11.14.5"
   },
   "description": ""
 }
