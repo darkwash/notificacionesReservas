@@ -9,7 +9,8 @@
   "author": "Hector vazquez",
   "license": "ISC",
   "devDependencies": {
-    "sweetalert2": "^11.14.5"
+    "sweetalert2": "^11.22.4"
   },
   "description": ""
 }
+
